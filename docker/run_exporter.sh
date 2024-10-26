@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Prüfen, ob alle notwendigen Umgebungsvariablen gesetzt sind
 if [ -z "$REPO_PATH" ] || [ -z "$BASE_PATH" ] || [ -z "$USER_NAME" ] || [ -z "$PASSWORD" ] || [ -z "$UNZIP_PATH" ]; then
